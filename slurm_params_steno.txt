@@ -1,0 +1,5 @@
+PARTITION=kemi1                                 # Default Partition
+TIME=240:00:00                                  # Job Time Limit
+GAUSS_EXE=/software/kemi/g16C/Legacy/g16/g16    # Gaussian Executable
+GAUSS_EXEDIR=/software/kemi/g16C/Legacy/g16/    # Gaussian Environmental Variables
+GAUSS_SCRDIR=/scratch/\$SLURM_JOB_ID            # see https://gaussian.com/running/
