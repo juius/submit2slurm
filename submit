@@ -1,5 +1,5 @@
 #!/bin/bash
-source ./submitParamsSteno.txt
+source ./submit_params_steno.txt
 
 CMD=$1
 IN=$2
